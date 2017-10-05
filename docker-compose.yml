@@ -1,9 +1,10 @@
+version: '3'
 services:
+  stdin_open: true
+  tty: true
   app:
     build: .
     ports:
     - "${port}:${port}"
     volumes:
     - download:/download
-    environment:
-    - port: 10086
