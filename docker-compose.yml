@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+    - "${port}:${port}"
+    volumes:
+    - download:/download
+    environment:
+    - port: 10086

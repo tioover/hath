@@ -1,11 +1,5 @@
 # hath
 Hentai@Home Docker
 
-~~~
-docker run -it hath:1.4.2
-Enter Client ID: ...
-~~~
+Edit `docker-compose.yml` fill your port
 
-~~~
-docker run --name -d hath:1.4.2
-~~~
